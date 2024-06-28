@@ -1,0 +1,517 @@
+*{
+    margin: auto; padding: 0;
+}
+
+
+
+.encabezado{
+    width: auto;
+    height: 60px;
+    background-color: rgb(245, 163, 149);
+}
+
+.encabezado h5{
+    text-align: center;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.933);
+}  
+
+header{
+     width: auto;
+     height: 140px;
+     background-color: rgb(246, 190, 190);
+     opacity: 60%;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.opciones{
+    float: right;
+    margin-top: 5%;
+    margin-right: 30px;}
+
+.opciones a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 25px;
+}
+
+.primeraparte img{
+    width: 100%;
+    height: 380px;
+}
+
+
+.titulo1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.titulo1 h1 svg{
+    width: 30px;
+    height: 30px;
+}
+.algunosproductos{
+    border: 5px solid rgb(96, 96, 241);
+    margin-left: 5px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.produc img{
+    width: 270px;
+    height: 400px;
+}
+
+.producto{
+margin-left: 20px;
+
+}
+.producto img{
+    width: 250px;
+    height: 300px;
+}
+
+.producto p{
+    color: grey;
+    font-size: 15px;
+}
+
+.producto h3{
+    color: rgb(6, 6, 154);
+}
+.producto a{
+    margin-left: 70px;
+    text-decoration: none;
+}
+
+/*PROMOCIONES*/
+.promociones{
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+
+.promociones img{
+    width: 250px;
+    height: 250px;
+}
+
+.promociones h2{
+    padding-left: -10%;
+    font-size: 25px;
+}
+
+.promociones p{
+    padding-left: 90px;
+    text-decoration:line-through;
+}
+
+.promociones h4{
+    margin-left: 80px;
+    font-size: 20px;
+
+}
+
+.promociones a{
+    margin-left: 80px;
+
+}
+
+.dcto{ 
+    background-color: rgb(203, 203, 187);
+    height: 80px;
+    width: 680px;
+    margin-top: 10px;
+}
+
+.dcto h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.dcto h1{
+    text-align: center;
+}
+/*TEAM*/
+.titulo1{ border-bottom: 5px solid rgb(178, 178, 175);width: 400px;
+text-align: center;}
+
+.tituloteam{
+  text-align: center;
+  border-bottom: 5px solid rgb(178, 178, 175);width: 400px
+
+}
+
+.team{
+    margin-top: 50px;
+}
+.personal{ 
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding-left: 100px;
+}
+.personal img{
+    width: 280px;
+    height: 250px;
+}
+
+.personal h2{
+    font-size: 15px;
+    text-align: center;
+}
+
+.personal p{
+    color: rgb(153, 151, 151);
+    text-align: center;
+}
+
+/*NOTICIAS*/
+
+
+.titulos{
+    margin-top: 80px;
+    text-align: center;
+    width: 500px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+}
+
+.titulos h1{
+    color: rgb(248, 17, 106);
+    padding-top: 20px;
+}
+
+.titulo2{
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 5px solid rgb(221, 158, 136);width: 400px;
+}
+
+.produc-nuevos, .produc-nuevo{
+    margin: 20px;
+    display: inline-block;
+    margin-left: 80px;
+}
+.produc-nuevos{
+    border: 5px solid palevioletred;
+}
+.produc-nuevos img{
+    margin-top: 20%;
+    width: 350px;
+    height: 400px;
+}
+
+.produc-nuevos p{
+    color: grey;
+}
+
+.produc-nuevos h2{
+    text-align: center;
+    height: 30px;
+    width: 350px;
+    background-color:palevioletred ;
+    color: white;
+}
+
+.produc-nuevos h3{
+    color: blue;
+    text-align: center;
+}
+
+.subtitulo{
+    width: 800px;
+    height: 30px;
+    background-color: rgb(238, 195, 238);
+    align-content: center;
+    margin-top: 10px;
+}
+
+.subtitulo h4{
+    text-align: center;
+    color: rgb(141, 4, 134);
+}
+
+.skin img{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.info{
+    width: 1200px;
+    height: 180px;
+    margin-top: 20px;
+}
+
+.info p{
+    font-size: 20px;
+}
+
+.inf{
+    width: 400px;
+    height: 40px;
+    background-color: rgb(238, 195, 238) ;
+    margin-top: -5%;
+}
+
+.inf a{
+    float: right;
+    color: rgb(0, 8, 251);
+    padding-right: 10px;
+}
+
+.sucursales{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 100px;
+    margin-left: 100px;
+}
+
+.sucursales img{
+    width: 400px;
+    height: 400px;
+}
+
+.sucursales h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sucursales h6{
+    height: 28px;
+    width: 100px;
+    background-color: rgb(254, 180, 153);
+}
+
+.publi1{
+    padding-top: 30px;
+    text-align: center;
+    color: grey;
+    border-bottom: 5px solid black; width: 170px;
+}
+
+.prod-publi1, .prod-publi2{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin-left: 180px;
+    margin-top: 30px;
+    border: 5px solid black;
+
+}
+
+.prod-publi1 img, .prod-publi2 img{
+    width: 200px;
+    height: 200px;
+}
+
+.prod-publi1 p, .prod-publi2 p, .prod-publi3 p{
+    color: gray;
+}
+
+.prod-publi1 a, .prod-publi2 a{
+    color: rgb(255, 0, 183);
+    text-decoration: none;
+}
+
+.publi2{
+    text-align: center;
+    color: grey;
+    margin-top: 30px;
+    border-bottom: 5px solid black;width: 120px; 
+}
+
+
+.publi3{
+    margin-top: 40px;
+   text-align: center;
+    color: grey;
+    border-bottom: 5px solid black; width: 170px;
+}
+
+.prod-publi3{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin-left: 180px;
+    margin-top: 30px;
+    border: 5px solid black;
+}
+
+.prod-publi3 img{
+    width: 200px;
+    height: 200px;
+}
+
+.prod-publi3 a{
+    color: rgb(255, 0, 183);
+    text-decoration: none;
+}
+
+.envio{
+    height: 80px;
+    width: 500px;
+    background-color: rgb(255, 186, 161);
+    margin-top: 20px;
+}
+
+.envio h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.envio p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    border-bottom: 4px solid black; width: 200px;
+}
+
+
+
+
+footer{
+    height: 300px;
+    width: auto;
+    background-color:black;
+   text-align: center;
+   margin-top: 200px;
+
+}
+.redes-sociales p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-top: 50px;
+}
+.redes-sociales svg{
+     width: 35px; height: 35px;
+     padding: 15px;
+     color: rgb(231, 18, 184);
+    }
+
+.nosotros{
+    display: flex;
+}
+.nosotros a{
+    text-decoration: none;
+    padding-left: 170px;
+   font-size: 20px;
+   color: rgb(249, 249, 249);
+   padding-right: 30px;
+}
+
+.tarjetas{
+    align-content: center;
+    padding-top: 20px;
+}
+
+.tarjetas img{
+    width: 45px;
+    height: 35px;
+    padding: 15px;
+}
+
+footer p{
+    color: bisque;
+}
+
+/*REGISTRO*/
+
+#registro{
+    text-align: center;
+    margin: 20px;
+}
+.Titulo1_2{
+    font-size: 27px;
+    margin: 20px;
+}
+.Formulario{
+    display: inline-block;
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+}
+.boton button{
+    width: 10%;
+    height: 10%;
+    font-size: 15px;
+    margin: 10px;
+}
+.Titulo1_3{
+    font-size: 25px;
+    margin: 20px;
+}
+.formulario2{
+    display: inline-block;
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+#Sustentabilidad{
+    align-items: center;
+}
+#Sustentabilidad h1{
+    font-size: 40px;
+    margin: 25px;
+    text-align: center;
+    text-decoration: underline rgb(255, 144, 209);
+}
+.tabla1 table{
+    width: 80%;
+    height: 70%;
+    font-size: 20px;
+   text-align: center;
+   margin-left: 10%;
+}
+.tabla1 th{
+    font-size: 25px;
+    background-color: rgb(240, 163, 198);
+}
+.tabla1 td{
+    background-color: rgb(255, 255, 255);
+}
+.tabla1 td img{
+    width: 300px;
+    height: 200px;
+}
+.tabla2 table{
+    width: 90%;
+    height: 70%;
+    font-size: 20px;
+   text-align: center;
+   margin-left: 5%;
+}
+.tabla2 img{
+    width: 90%;
+    height: 90%;
+}
+
+.tabla3 table{
+    width: 70%;
+    height: 70%;
+    font-size: 20px;
+   text-align: center;
+   margin-left: 15%;
+}
+
+.tabla3 th img{
+    width: 300px;
+    height: 250px;
+}
